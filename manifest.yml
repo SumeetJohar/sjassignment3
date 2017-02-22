@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: sjassignment3
+  host: sjassignment3
+  disk_quota: 1024M
+  services:
+  - sjassignment3-cloudantNoSQLDB
+  - sjassignment3-iotf-service
